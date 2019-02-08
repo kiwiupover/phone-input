@@ -39,7 +39,7 @@
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.1.0",
     "ember-maybe-import-regenerator": "^0.1.6",
-    "ember-phone-input": "github:kiwiupover/ember-phone-input#e42430f56d0836bdbbcf0cfc2854bd39db56c972",
+    "ember-phone-input": "^2.0.5",
     "ember-resolver": "^5.0.1",
     "ember-source": "~3.4.0",
     "ember-welcome-page": "^3.2.0",
