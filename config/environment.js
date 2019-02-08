@@ -16,7 +16,19 @@ module.exports = function(environment) {
         Date: false
       }
     },
-    
+
+    'polyfill-io': {
+      features: [
+        'Array.from',
+        'Symbol',
+        'Symbol.iterator',
+        'Object.assign',
+        'Object.values',
+        'String.prototype.startsWith',
+        'String.prototype.endsWith'
+      ]
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
