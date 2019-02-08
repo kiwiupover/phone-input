@@ -17,10 +17,6 @@ module.exports = function(environment) {
       }
     },
 
-    phoneInput: {
-      lazyLoad: true
-    },
-
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
