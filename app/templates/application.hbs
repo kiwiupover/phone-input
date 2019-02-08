@@ -1,5 +1,11 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+{{phone-input
+  autoPlaceholder='aggressive'
+  initialCountry='us'
+  number=number
+  update=(action 'handleUpdate')}}
 
+
+<h1>number: {{number}}</h1>
+
+<h2>metaData: {{metaData}}</h2>
 {{outlet}}
